@@ -1,2 +1,1 @@
-# bubble
-bubble project
+Bubble project
