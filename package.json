@@ -4,7 +4,8 @@
   "description": "bubble package",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.3.3",
     "express": "^4.16.4",
+    "mocha": "^8.3.1",
     "npm": "^6.9.0"
   }
 }

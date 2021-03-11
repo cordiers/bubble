@@ -1,30 +1,9 @@
-var expect  = require('chai').expect;
-var request = require('request');
-
-describe('Status and content', function() {
-    describe ('Main page', function() {
-        it('status', function(done){
-            request('http://localhost:8080/', function(error, response, body) {
-                expect(response.statusCode).to.equal(200);
-                done();
-            });
-        });
-
-        it('content', function(done) {
-            request('http://localhost:8080/' , function(error, response, body) {
-                expect(body).to.equal('Hello World!');
-                done();
-            });
-        });
+const expect = require('chai').expect;
+describe('Simple Math Test', () => {
+ it('should return 2', () => {
+        expect(1 + 1).to.equal(2);
     });
-
-    describe ('About page', function() {
-        it('status', function(done){
-            request('http://localhost:8080/about', function(error, response, body) {
-                expect(response.statusCode).to.equal(404);
-                done();
-            });
-        });
-
+ it('should return 9', () => {
+        expect(3 * 3).to.equal(9);
     });
 });
