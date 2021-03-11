@@ -1,12 +1,4 @@
-Bubble project
-
-Lulu tu bluf
-
-tu rebluf
-
-tu rebluf
-wouaf
-
+Bubble the clever boy!
 
 
 
