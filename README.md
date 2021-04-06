@@ -1,1 +1,1 @@
-Wildcard rocks!
+Wildcard
