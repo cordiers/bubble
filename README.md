@@ -8,7 +8,3 @@ tu rebluf
 wouaf
 Woua
 
-
-Woua
-Double 
-
